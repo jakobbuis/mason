@@ -2,7 +2,7 @@
     "name": "mason/mason",
     "description": "Component library and generator for laravel+wordplate-based setups",
     "type": "library",
-    "license": "Unlicensed",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Jakob Buis",
