@@ -1,0 +1,17 @@
+{
+    "name": "mason/mason",
+    "description": "Component library and generator for laravel+wordplate-based setups",
+    "type": "library",
+    "license": "Unlicensed",
+    "authors": [
+        {
+            "name": "Jakob Buis",
+            "email": "jakob@jakobbuis.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "mason/builder": "*",
+        "mason/bricks": "*"
+    }
+}
