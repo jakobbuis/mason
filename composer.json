@@ -10,8 +10,16 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-        "mason/builder": "*",
-        "mason/bricks": "*"
+    "autoload": {
+        "psr-4": {
+            "Mason\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mason\\ServiceProvider"
+            ]
+        }
     }
 }
